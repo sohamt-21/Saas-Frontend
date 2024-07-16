@@ -1,8 +1,9 @@
 import React, { useRef, useState } from "react";
 import { motion, useMotionValue, useTransform } from "framer-motion";
 import { MoveUpRight } from "lucide-react";
+import Component1 from "./Component";
 
-function Showcase({Component1, Component2}) {
+function Showcase() {
   const [cursorText, setCursorText] = useState("");
   const [cursorStyle, setCursorStyle] = useState({});
   const [showCursor, setShowCursor] = useState(false);
@@ -56,7 +57,7 @@ function Showcase({Component1, Component2}) {
           onMouseEnter={projectEnter}
           onMouseLeave={projectLeave}
         >
-          <span className=" text-lg">{Component1}</span>
+          <span className=" text-lg"><Component1/></span>
         </div>
 
         <div
@@ -64,7 +65,7 @@ function Showcase({Component1, Component2}) {
           onMouseEnter={projectEnter}
           onMouseLeave={projectLeave}
         >
-          <span className="text-lg">{Component2}</span>
+          <span className="text-lg">Sup</span>
         </div>
       </div>
       <motion.div

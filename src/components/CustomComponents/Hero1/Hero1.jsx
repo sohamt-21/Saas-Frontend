@@ -14,12 +14,14 @@ import {
 function Hero1() {
   const [scroll, setScroll] = useState(false);
   const { scrollY } = useScroll();
+
   useMotionValueEvent(scrollY, "change", (y) => {
     setScroll(y > 50);
   });
 
   const viewRef = useRef(null);
   const isInView = useInView(viewRef, { amount: 0.5 });
+
   return (
     <>
       <div className="hero1-container w-full relative top-0 ">
@@ -44,13 +46,13 @@ function Hero1() {
                 viewProp={isInView ? false : true}
               />
             </p>
-            <p className="hero-text items-center flex justify-center text-8xl font-light text-cyan-500">
+            <p className="hero-text items-center flex justify-center text-8xl font-light text-cyan-500 text-center">
               <TextAnimation
                 text="Hero Section"
                 viewProp={isInView ? false : true}
               />
             </p>
-            <p className="hero-text text-lg my-2 font-light max-w-3xl mx-auto text-">
+            <p className="hero-text text-lg my-2 font-light max-w-3xl mx-auto text-center">
               I will add two lines here just to get some attraction, I will add
               two lines here just to get some attraction, I will add two lines
               here just to get some attraction

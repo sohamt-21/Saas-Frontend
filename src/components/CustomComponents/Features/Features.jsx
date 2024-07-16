@@ -67,7 +67,7 @@ function Features() {
             </p>
           </div>
           <div className="col-span-6 row-span-26 bg-gray-100 rounded-lg flex flex-col justify-center items-center  hover:shadow-xl">
-            <div className=" border rounded-lg mx-auto pt-5">
+            <div className=" border rounded-lg mx-auto pt-5 ">
               {isInView && <TableData classname={"w-fit mx-auto border-2 bg-white  "} />}
             </div>
             <h1 className=" font-bold pt-4">Just Add Bank Account</h1>

@@ -36,7 +36,7 @@ export function Waitlist() {
           <input
             type="text"
             placeholder="justSohamDoingStuff@gmail.com"
-            className="rounded-lg border border-neutral-800 focus:ring-2 h-9 w-full relative z-10 bg-neutral-950 placeholder:text-neutral-700 text-white"
+            className="rounded-lg border border-neutral-800 focus:ring-2 h-9 w-full relative z-10 bg-neutral-950 placeholder:text-neutral-700 text-white px-3"
           />
           <Button
             type="submit"

@@ -8,6 +8,7 @@ import { Waitlist } from "../../components/CustomComponents/Waitlist/Waitlist";
 import Footer from "../../components/CustomComponents/Footer/Footer";
 import Testimonial from "../../components/CustomComponents/Testomonials/Testimonial";
 import Showcase from "../../components/CustomComponents/Showcase/Showcase";
+import { Signup } from "../../components/CustomComponents/Forms/Signup";
 
 const Home = () => {
   return (
@@ -17,7 +18,7 @@ const Home = () => {
       <Features/>
       <Testimonial/>
       <Price/>
-      {/* <Showcase/> */}
+      <Showcase/>
       <Waitlist/>
       <Footer/>
     </div>

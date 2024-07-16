@@ -1,4 +1,5 @@
 import { Button } from "../../ui/button";
+import { buttonVariants } from "../../ui/button";
 import { ArrowRight } from "lucide-react";
 import React, { useState } from "react";
 import { motion } from "framer-motion";
@@ -90,7 +91,9 @@ function Price() {
               <p className="text-5xl font-bold mb-6">
                 {price.amount} <span className="font-thin text-2xl">/{isYearly ? "yr" : "mo"}</span>
               </p>
-              <Button size="md">Get Started</Button>
+              {/* <Button size="md" >Get Started</Button> */}
+              <a className={buttonVariants({ size:"md" })} href='https://buy.stripe.com/test_bIYeXi02FerX35ueUU'>Click here</a>
+
             </div>
 
             <ul className="mt-6 space-y-2 text-left">

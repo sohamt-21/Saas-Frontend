@@ -2,6 +2,11 @@ import { Button } from "../../ui/button";
 import { Instagram, Linkedin, Twitter } from "lucide-react";
 import React, { useRef } from "react";
 import { motion, useScroll, useTransform } from "framer-motion";
+import {
+  InstagramLogoIcon,
+  LinkedInLogoIcon,
+  TwitterLogoIcon,
+} from "@radix-ui/react-icons";
 
 function Footer() {
   const container = useRef();
@@ -18,7 +23,7 @@ function Footer() {
     >
       <motion.div
         className=" h-full flex justify-center items-center gap-1"
-        style={{y}}
+        style={{ y }}
       >
         <div className="flex flex-col justify-center items-center mt-20">
           <p className="font-Soria text-7xl flex justify-center items-center">
@@ -34,13 +39,13 @@ function Footer() {
           <p>All Rights Reserved Buddy @Never Selected</p>
           <div className="flex flex-row gap-14 pt-2">
             <motion.a href="" whileHover={{ scale: 1.3 }}>
-              <Twitter strokeWidth={1.4} />
+              <TwitterLogoIcon className=" h-8 w-8" />
             </motion.a>
             <motion.a href="" whileHover={{ scale: 1.3 }}>
-              <Instagram strokeWidth={1.4} />
+              <InstagramLogoIcon className=" h-8 w-8" />
             </motion.a>
             <motion.a href="" whileHover={{ scale: 1.3 }}>
-              <Linkedin strokeWidth={1.4} />
+              <LinkedInLogoIcon className=" h-8 w-8" />
             </motion.a>
           </div>
         </div>

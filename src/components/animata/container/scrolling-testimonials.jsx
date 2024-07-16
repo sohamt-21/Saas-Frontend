@@ -27,7 +27,7 @@ function TestimonialCard({ testimonial: { image, name, description } }) {
 
 export default function ScrollingTestimonials({ data }) {
   return (
-    <div className="">
+    <div className=" ">
       <div className="flex flex-row gap-3 h-[65vh]">
         <Marquee
           className="[--duration:80s]"
