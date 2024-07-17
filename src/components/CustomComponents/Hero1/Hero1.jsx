@@ -31,45 +31,42 @@ function Hero1() {
           ))}
         </div>
 
-        <div className=" pointer-events-none py-14 absolute inset-0 font-Soria">
-          <div className="flex justify-center items-center gap-3">
-            <Button variant="hero">Finance</Button>
-            <Button variant="hero">B2B</Button>
+        <div className=" pointer-events-none py-14 absolute inset-0 ">
+          <div className="flex justify-center items-center gap-3 font-Soria">
+            <Button variant="hero">Farm</Button>
+            <Button variant="hero">Bid</Button>
             <Button variant="hero">Secure</Button>
-            <Button variant="hero">Some</Button>
-            <Button variant="hero">Thing</Button>
           </div>
           <div className="hero-text mt-7">
-            <p className="hero-text items-center flex justify-center text-8xl font-light ">
+            <p className="hero-text items-center flex justify-center text-8xl font-light font-Soria">
               <TextAnimation
-                text="Animate This text for"
+                text="Welcome To"
                 viewProp={isInView ? false : true}
               />
+              <p className=" text-cyan-500"> <TextAnimation
+                text=" Agrico"
+                viewProp={isInView ? false : true}
+              /></p>
+              
             </p>
-            <p className="hero-text items-center flex justify-center text-8xl font-light text-cyan-500 text-center">
+            <p className="hero-text items-center flex justify-center text-6xl font-light text-center font-Soria">
               <TextAnimation
-                text="Hero Section"
+                text="Your Place To Make Profit"
                 viewProp={isInView ? false : true}
               />
             </p>
             <p className="hero-text text-lg my-2 font-light max-w-3xl mx-auto text-center">
-              I will add two lines here just to get some attraction, I will add
-              two lines here just to get some attraction, I will add two lines
-              here just to get some attraction
-            </p>
-            <p className="flex flex-row gap-1 justify-center">
-              <MapPin />
-              <span>Pune, India</span>
+              Plan your future and save money by direclty bidding and connection to ASMP Lisecence Owner and free access to all education content.
             </p>
           </div>
-          <div className="hero1-img my-6">
+          <div className="hero1-img my-3">
             <motion.img
               src={Landing}
               alt=""
               className="w-2/3 mx-auto border-2 border-gray-400"
               initial={{ rotateX: 60 }}
               animate={scroll ? { rotateX: 0 } : {}}
-              transition={{ duration: 4 }}
+              transition={{ duration: 2 }}
             />
           </div>
         </div>

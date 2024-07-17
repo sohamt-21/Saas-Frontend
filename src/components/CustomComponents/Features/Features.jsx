@@ -1,7 +1,6 @@
 import React, { useRef } from "react";
 import Linechart from "../Charts/Linechart";
 import { useInView } from "framer-motion";
-import Piechart from "../Charts/Piechart";
 import { useTheme } from "../../theme-provider";
 import TableData from "./TableData";
 import Secuity from "../../../assets/Security.png";
@@ -11,6 +10,8 @@ import Viber from "../../../assets/Viber.png";
 import Telegram from "../../../assets/Telegram.png";
 import Paypal from "../../../assets/Paypal.png";
 import Linkedin from "../../../assets/LinkedIn.png";
+import Barchart from "../Charts/Barchart"
+import { IconCircle } from "./IconCircle";
 
 function Features() {
   const { theme } = useTheme();
@@ -56,22 +57,23 @@ function Features() {
           >
             <div className=" pt-4">
               {isInView && (
-                <Linechart chartConfig={chartConfig} chartData={chartData} />
+                // <Linechart chartConfig={chartConfig} chartData={chartData} />
+                <Barchart/>
               )}
             </div>
 
-            <p className=" font-bold pt-4">Invest as low as $10</p>
-            <p className=" pb-4">
-              Get Proper investment plan according to stock price with less
-              effort
+            <p className=" font-bold pt-4">Persionlized Dashboard Progress</p>
+            <p className=" pb-4 w-2/3 text-center">
+              Enter you detials and get the details about saving and investments and suggestions. 
             </p>
           </div>
           <div className="col-span-6 row-span-26 bg-gray-100 rounded-lg flex flex-col justify-center items-center  hover:shadow-xl">
             <div className=" border rounded-lg mx-auto pt-5 ">
-              {isInView && <TableData classname={"w-fit mx-auto border-2 bg-white  "} />}
+              {/* {isInView && <TableData classname={"w-fit mx-auto border-2 bg-white  "} />} */}
+              {isInView &&  <IconCircle/>}
             </div>
-            <h1 className=" font-bold pt-4">Just Add Bank Account</h1>
-            <div>Keep Track of all expenses to achieve Goals</div>
+            <h1 className=" font-bold pt-4">Get investment Suggestion</h1>
+            <div>Get the valuation and suggestion using various technology</div>
           </div>
 
           <div className="col-span-4 row-span-26 hover:shadow-lg flex flex-col justify-center items-center bg-cyan-300 rounded-2xl">
@@ -91,10 +93,9 @@ function Features() {
               />
             </div>
             <div className="row-span-4 ">
-              <p className=" font-bold">Secure and Relaible</p>
+              <p className=" font-bold">Free Guidance</p>
               <p>
-                For anyone to start their proftfolio, no matter the size of
-                wallet
+                Get free guidance on how to start and what to do using available courses
               </p>
             </div>
           </div>
@@ -112,9 +113,9 @@ function Features() {
               <img src={Slack} alt="" className="  rounded-2xl   w-32" />
             </div>
             <div className="col-span-4  row-span-4">
-              <p className=" font-bold ">Avaible for Beginner to Experienced</p>
+              <p className=" font-bold ">Avaible for Farming and Small Buisness</p>
               <p className="">
-                Compatible for multiple Equities and Stocks as per user response
+                Multiple schemes availble for women to start own small scale buisness
               </p>
             </div>
           </div>

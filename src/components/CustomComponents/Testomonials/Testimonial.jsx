@@ -12,7 +12,10 @@ function Testimonial() {
 
   return (
     <div className=" bg-black text-white h-screen">
-      <div className=" w-fit mx-auto mt-24 overflow-hidden dark pb-32" ref={testi}>
+      <div
+        className=" w-fit mx-auto mt-24 overflow-hidden dark pb-32"
+        ref={testi}
+      >
         <motion.div className=" " style={{ y }}>
           <p className=" text-6xl font-Soria text-center">
             See what out cutomers say about us
@@ -25,52 +28,45 @@ function Testimonial() {
             data={[
               {
                 description:
-                  "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa nostrum labore dolor facilis, nesciunt facere mollitia nam aspernatur!",
+                  "This site provides guidance on investment opportunities for farmers and offers free courses.",
                 image:
                   "https://plus.unsplash.com/premium_photo-1717529137991-510ad3be15d9?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-                name: "John Doe.",
+                name: "Aaryan Kumar",
               },
               {
                 description:
-                  "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa nostrum labore dolor facilis, nesciunt facere mollitia nam aspernatur!",
+                  "Thank you for sharing useful resources and knowledge for farmers.",
                 image:
                   "https://images.unsplash.com/photo-1566753323558-f4e0952af115?q=80&w=1921&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-                name: "Paul A",
+                name: "Sunita Mehta",
               },
               {
                 description:
-                  "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa nostrum labore dolor facilis, nesciunt facere mollitia nam aspernatur!",
+                  "This website has been extremely helpful for me. The investment suggestions are fantastic!",
                 image:
                   "https://images.unsplash.com/photo-1560298803-1d998f6b5249?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-                name: "Jeff Roe",
+                name: "Rajesh Pandey",
               },
               {
                 description:
-                  "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa nostrum labore dolor facilis, nesciunt facere mollitia nam aspernatur!",
+                  "A great resource for the farming community. I highly recommend it.",
                 image:
                   "https://images.unsplash.com/photo-1518287010730-4386819bf3e9?q=80&w=2020&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-                name: "Mex Q",
+                name: "Meera Sharma",
               },
               {
                 description:
-                  "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa nostrum labore dolor facilis, nesciunt facere mollitia nam aspernatur!",
+                  "Invaluable insights for farmers looking to invest wisely.",
                 image:
                   "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=1976&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-                name: "Cristina W",
+                name: "Vikram Singh",
               },
               {
                 description:
-                  "Lorem ipsum dolor, sit amet consectetur adipisicing elit. ",
+                  "This platform offers excellent courses that are beneficial for farmers.",
                 image:
                   "https://images.unsplash.com/photo-1581092916357-5896ebc48073?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-                name: "Lanna Del Rey",
-              },
-              {
-                description:
-                  "Lorem ipsum dolor, sit amet consectetur adipisicing elit. ",
-                image:
-                  "https://images.unsplash.com/photo-1483389127117-b6a2102724ae?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-                name: "Paul Logan",
+                name: "Anita Roy",
               },
             ]}
           />

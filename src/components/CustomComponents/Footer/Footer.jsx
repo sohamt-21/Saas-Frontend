@@ -1,5 +1,4 @@
 import { Button } from "../../ui/button";
-import { Instagram, Linkedin, Twitter } from "lucide-react";
 import React, { useRef } from "react";
 import { motion, useScroll, useTransform } from "framer-motion";
 import {
@@ -7,6 +6,7 @@ import {
   LinkedInLogoIcon,
   TwitterLogoIcon,
 } from "@radix-ui/react-icons";
+import TextAnimation from "../../ui/TextAnimation";
 
 function Footer() {
   const container = useRef();
@@ -27,7 +27,7 @@ function Footer() {
       >
         <div className="flex flex-col justify-center items-center mt-20">
           <p className="font-Soria text-7xl flex justify-center items-center">
-            FinRock
+            <TextAnimation text={"FinRock"}/>
           </p>
           <div className="flex flex-row gap-[1rem]">
             <Button variant="link">Home</Button>
@@ -36,7 +36,7 @@ function Footer() {
             <Button variant="link">Waitlist</Button>
           </div>
           <hr className="w-full bg-black mt-4 mb-2" />
-          <p>All Rights Reserved Buddy @Never Selected</p>
+          <p>All Rights Reserved @Never Selected</p>
           <div className="flex flex-row gap-14 pt-2">
             <motion.a href="" whileHover={{ scale: 1.3 }}>
               <TwitterLogoIcon className=" h-8 w-8" />

@@ -1,16 +1,19 @@
 import React, { useState } from "react";
-import { motion } from "framer-motion";
+import { easeIn, easeInOut, motion } from "framer-motion";
 
 function TextAnimation({ text, className, viewProp }) {
   const defaultAnimation = {
     hidden: {
-      opacity: 0.2,
+      opacity: 0,
+      y:50,
     },
     visible: {
       opacity: 1,
+      y:0,
 
       transition: {
         duration: 0.1,
+        
       },
     },
   };
@@ -21,7 +24,7 @@ function TextAnimation({ text, className, viewProp }) {
       <motion.span
         initial="hidden"
         animate={viewProp ? "visible" : "hidden"}
-        transition={{ staggerChildren: 0.1 }}
+        transition={{ staggerChildren: 0.07 , ease:'easeInOut'}}
         className="aria-hidden flex flex-wrap"
       >
         {text.split("").map((char, index) => (

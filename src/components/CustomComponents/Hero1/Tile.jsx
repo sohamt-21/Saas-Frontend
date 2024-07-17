@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 function Tile() {
   return (
     <motion.div
-      className="aspect-square rounded-xl border border-zinc-100 -skew-y-6 transition-colors hover:bg-cyan-200 "
+      className="aspect-square rounded-md border -skew-y-6 border-dashed border-neutral-200 transition-colors hover:bg-cyan-200 "
     />
   );
 }

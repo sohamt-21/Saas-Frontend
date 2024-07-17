@@ -92,8 +92,7 @@ function Price() {
                 {price.amount} <span className="font-thin text-2xl">/{isYearly ? "yr" : "mo"}</span>
               </p>
               {/* <Button size="md" >Get Started</Button> */}
-              <a className={buttonVariants({ size:"md" })} href='https://buy.stripe.com/test_bIYeXi02FerX35ueUU'>Click here</a>
-
+              <a className={`${buttonVariants({ size:'md' })}`} href='https://buy.stripe.com/test_bIYeXi02FerX35ueUU'><span className=" text-lg">Click Here</span></a>
             </div>
 
             <ul className="mt-6 space-y-2 text-left">
