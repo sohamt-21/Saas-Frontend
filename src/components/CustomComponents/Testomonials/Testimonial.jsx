@@ -28,42 +28,42 @@ function Testimonial() {
             data={[
               {
                 description:
-                  "This site provides guidance on investment opportunities for farmers and offers free courses.",
+                  "This platform provides comprehensive tools for managing finances using AI-driven solutions.",
                 image:
                   "https://plus.unsplash.com/premium_photo-1717529137991-510ad3be15d9?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
                 name: "Aaryan Kumar",
               },
               {
                 description:
-                  "Thank you for sharing useful resources and knowledge for farmers.",
+                  "Thank you for creating such an intuitive and powerful financial management platform.",
                 image:
                   "https://images.unsplash.com/photo-1566753323558-f4e0952af115?q=80&w=1921&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
                 name: "Sunita Mehta",
               },
               {
                 description:
-                  "This website has been extremely helpful for me. The investment suggestions are fantastic!",
+                  "This platform has been extremely helpful for me. The financial analytics are fantastic!",
                 image:
                   "https://images.unsplash.com/photo-1560298803-1d998f6b5249?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
                 name: "Rajesh Pandey",
               },
               {
                 description:
-                  "A great resource for the farming community. I highly recommend it.",
+                  "A great resource for anyone looking to take control of their finances. I highly recommend it.",
                 image:
                   "https://images.unsplash.com/photo-1518287010730-4386819bf3e9?q=80&w=2020&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
                 name: "Meera Sharma",
               },
               {
                 description:
-                  "Invaluable insights for farmers looking to invest wisely.",
+                  "Invaluable insights and tools for managing personal finances wisely.",
                 image:
                   "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=1976&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
                 name: "Vikram Singh",
               },
               {
                 description:
-                  "This platform offers excellent courses that are beneficial for farmers.",
+                  "This platform offers excellent features that are beneficial for anyone looking to manage their finances effectively.",
                 image:
                   "https://images.unsplash.com/photo-1581092916357-5896ebc48073?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
                 name: "Anita Roy",

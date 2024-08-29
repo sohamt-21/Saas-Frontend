@@ -38,7 +38,7 @@ export default function Component() {
   return (
     <Card>
       <CardHeader>
-        <CardTitle>Crop Dashboard</CardTitle>
+        <CardTitle>Expense Dashboard</CardTitle>
         <CardDescription>January - June 2024</CardDescription>
       </CardHeader>
       <CardContent>

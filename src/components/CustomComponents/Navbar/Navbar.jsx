@@ -48,15 +48,14 @@ const Navbar = () => {
         transition={{ duration: 0.3 }}
         className="nav-list w-fit h-16 z-20 px-8 list-none flex flex-row justify-center items-center fixed rounded-full border border-neutral-700 bg-gray-900 text-white dark:border-slate-200 dark:bg-slate-100 dark:text-black"
       >
-        <img src={Logo} alt="" className=" h-16" />
+        <img src={Logo} alt="" className=" h-20 w-16 rounded-xl py-4" />
         <Button variant="ghost">Home</Button>
-        <Button variant="ghost">About</Button>
         <Button variant="ghost">Pricing</Button>
         <Button variant="ghost">Contact</Button>
         <NavigationMenu className=" dark ">
           <NavigationMenuList>
             <NavigationMenuItem>
-              <NavigationMenuTrigger className=" text-lg hover:bg-accent hover:text-accent-foreground text-lg font-light">
+              <NavigationMenuTrigger className=" hover:bg-accent hover:text-accent-foreground text-lg font-light">
                 Go To Feature
               </NavigationMenuTrigger>
               <NavigationMenuContent>
@@ -105,6 +104,7 @@ const Navbar = () => {
           </NavigationMenuList>
         </NavigationMenu>
         <Button variant="ghost">Sign In</Button>
+        <Button variant="ghost">About</Button>
         {/* <ModeToggle /> */}
       </motion.div>
     </motion.nav>

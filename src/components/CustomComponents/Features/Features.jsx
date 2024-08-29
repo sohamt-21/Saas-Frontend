@@ -46,7 +46,7 @@ function Features() {
           Some of our Top Features
         </h1>
         <p className=" w-fit mx-auto">
-          We Provide these features in different packages
+          We provide these features in different packages
         </p>
       </div>
       <div className="feature-container w-10/12 mx-auto my-6">
@@ -68,7 +68,7 @@ function Features() {
             </p>
           </div>
           <div className="col-span-6 row-span-26 bg-gray-100 rounded-lg flex flex-col justify-center items-center  hover:shadow-xl">
-            <div className=" border rounded-lg mx-auto pt-5 ">
+            <div className=" border rounded-lg mx-auto pt-5  ">
               {/* {isInView && <TableData classname={"w-fit mx-auto border-2 bg-white  "} />} */}
               {isInView &&  <IconCircle/>}
             </div>
@@ -79,8 +79,8 @@ function Features() {
           <div className="col-span-4 row-span-26 hover:shadow-lg flex flex-col justify-center items-center bg-cyan-300 rounded-2xl">
             <div className=" row-span-9 bg-red-500  "></div>
             <div className=" row-span-3">
-              <p className=" font-bold "> Here will need to add</p>
-              <p>I love her she loves someone else nigga</p>
+              <p className=" font-bold text-center"> Here will need to add</p>
+              <p>Some tagline to be added about the platform.</p>
             </div>
           </div>
 
@@ -93,9 +93,9 @@ function Features() {
               />
             </div>
             <div className="row-span-4 ">
-              <p className=" font-bold">Free Guidance</p>
+              <p className=" font-bold">Secure and Reliable</p>
               <p>
-                Get free guidance on how to start and what to do using available courses
+                Completly secured and encrypted with 2 Layer Security.
               </p>
             </div>
           </div>
@@ -113,9 +113,9 @@ function Features() {
               <img src={Slack} alt="" className="  rounded-2xl   w-32" />
             </div>
             <div className="col-span-4  row-span-4">
-              <p className=" font-bold ">Avaible for Farming and Small Buisness</p>
+              <p className=" font-bold ">Payment and Community</p>
               <p className="">
-                Multiple schemes availble for women to start own small scale buisness
+                Multiple Payment gateways supported and Community Groups available.
               </p>
             </div>
           </div>
